@@ -2,7 +2,7 @@ name: 自动签到WeMC
 
 on:
   push:
-分支:
+branch:
       - main
   schedule:
     - cron: '0 22 * * *' # 每天一次，UTC 时间晚上 10 点运行（即北京时间早上 6 点）
